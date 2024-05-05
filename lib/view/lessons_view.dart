@@ -164,7 +164,7 @@ class LessonsView extends StatelessWidget {
                     child: ListTile(
                       trailing: Icon(
                         Icons.arrow_forward_ios,
-                        color: green2,
+                        color: yellow,
                       ),
                       title: Text(
                         lesson.lesson_name,
@@ -175,7 +175,7 @@ class LessonsView extends StatelessWidget {
                          Text(
                           lesson.lesson_number,
                           style: TextStyle(
-                            color: green,
+                            color: Purple,
                             fontWeight: FontWeight.bold,
                              fontSize: 20,
                           ),
@@ -183,7 +183,8 @@ class LessonsView extends StatelessWidget {
                    
                       onTap: () {
                         // Navigate to the lesson details screen
-                     
+                                             Navigator.of(context).pushNamed('/videos_view');
+
                     },
                   ),
                   )

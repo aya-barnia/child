@@ -206,6 +206,7 @@ class SubjectsView extends StatelessWidget {
                       title: Text(
                         subjects[index].subject_name,
                         textAlign: TextAlign.center,
+                        style: TextStyle(fontWeight: FontWeight.bold,),
                       ),
                       tileColor: colors[index % colors.length],
                       onTap: () {

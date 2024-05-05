@@ -136,10 +136,11 @@ import 'package:child_basma/helper/constant.dart';
 import 'package:child_basma/view/add_post_view.dart';
 import 'package:child_basma/view/classes_view.dart';
 import 'package:child_basma/view/lessons_view.dart';
-import 'package:child_basma/view/login_view.dart';
+import 'package:child_basma/view/Login/login_view.dart';
 import 'package:child_basma/view/posts_view.dart';
 import 'package:child_basma/view/profile_view.dart';
 import 'package:child_basma/view/subjects_view.dart';
+import 'package:child_basma/view/videos_view.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -159,6 +160,8 @@ class MyApp extends StatelessWidget {
         '/main': (context) => MyHomePage(),
         '/subjects_view': (context) => SubjectsView(),
         '/lessons_view': (context) => LessonsView(),
+                '/videos_view': (context) => VideosView(),
+
       },
       debugShowCheckedModeBanner: false,
     );
